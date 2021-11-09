@@ -27,7 +27,7 @@ Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS) willen we onze kennis 
 
 ## Meer info
 
-Bekijk het <a href="https://altijdblijvensporten.netlify.app/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
+Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
 
   
 
