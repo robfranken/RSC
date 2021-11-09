@@ -1,10 +1,12 @@
 name: "ABS"
 navbar:
-  title: "ABS"
   left:
-    - text: "Uitnodiging"
+    - icon: fa-home
       href: index.html
-    - text: "Informatie"
+
+<i class='fab fa-markdown fa-spin fa-3x'></i>    
+  
+    - text: "Meer informatie"
       menu:
       - text: "Informatiebrief"
         href: consent.html
