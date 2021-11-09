@@ -3,15 +3,16 @@ navbar:
   left:
     - icon: fa-home
       href: index.html
-
-<i class='fab fa-markdown fa-spin fa-3x'></i>    
-  
     - text: "Meer informatie"
       menu:
       - text: "Informatiebrief"
         href: consent.html
       - text: "Toestemmingsformulier"
         href: form.html
+    - text: "Contact"
+      menu:
+      - text: "E: rob.franken@ru.nl"
+      - text: "T: 024–3612512"
 output:
   html_document:
     theme: cerulean 
