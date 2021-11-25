@@ -1,5 +1,5 @@
 name: "ABS"
-favicon: favicon
+favicon: <link rel="shortcut icon" type="images/favicon" href="/favicon.ico">
 navbar:
   left:
     - icon: fa-home
