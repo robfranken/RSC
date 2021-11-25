@@ -1,5 +1,5 @@
 name: "ABS"
-favicon: "images/favicon-32x32.png"
+favicon: images/favicon.png
 navbar:
   left:
     - icon: fa-home
