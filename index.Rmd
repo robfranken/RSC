@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Ben jij eerstejaarsstudent? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode.
+Ben jij eerstejaarsstudent? Graag leggen we je een *tweede* online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode.
 
 <!---we should move this to a css file and include it
 
@@ -79,8 +79,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/938243?newtest=Y&lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
-
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/868275?newtest=Y&lang=nl" target="_blank" class="button button2">Start de tweede vragenlijst</a>
 
 
 <br>
