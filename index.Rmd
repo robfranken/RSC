@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Ben jij eerstejaarsstudent? Graag leggen we je een *tweede* online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode.
+Ben jij student aan de RU of HAN? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode.
 
 <!---we should move this to a css file and include it
 
@@ -79,7 +79,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/868275?newtest=Y&lang=nl" target="_blank" class="button button2">Start de tweede vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/868275?newtest=Y&lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
 
 
 <br>
@@ -91,7 +91,51 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 ## Beloning 
 
-Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk eerstejaarsstudenten meedoen. Om deelnemers (aan de eerste vragenlijst) te bedanken verloten we **10x een jaarabonnement bij het RSC (t.w.v. 123 euro)**. Deelnemers die ook nog een tweede vragenlijst invullen ontvangen van ons een **bol.com waardebon van 5 euro**.
+<script>
+function myFunction() {
+
+            var btn = document.getElementById("myButton");
+            //to make it fancier
+            if (btn.value == "Click to hide code") {
+                btn.value = "Ervaringen van voorgaande deelnemers!";
+                btn.innerHTML = "Ervaringen van voorgaande deelnemers!";
+            }
+            else {
+                btn.value = "Click to hide code";
+                btn.innerHTML = "Ervaringen van voorgaande deelnemers!";
+            }
+            //this is what you're looking for
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+          
+</script>
+
+
+Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers (aan de eerste vragenlijst) te bedanken verloten we **10x een jaarabonnement bij het RSC (t.w.v. 123 euro)**.
+
+<br>
+
+<button class=button1 onclick="myFunction()" id="myButton" value="Click To Open Instructions">Ervaringen van voorgaande deelnemers!</button>
+
+<div style="display:none;" id="myDIV">
+<br>
+
+- "Ik deed mee aan de vragenlijsten, voornamelijk om bij te dragen aan het onderzoek, maar gedeeltelijk ook vanwege de kans om wat te winnen (wat aardig is gelukt, haha). De vragenlijst was prima, qua lengte, en de vragen waren duidelijk gesteld." - *eerstejaars student Aritifical Intelligence*
+
+- "Relevant onderzoek! Zeker voor studenten. De vragenlijsten duurde niet lang en waren gemakkelijk via de telefoon in te vullen. Ben benieuwd naar de resultaten!" - *pre-master student Bestuurskunde*
+
+- "Ik deed mee om het onderzoek verder te helpen. De vragen waren duidelijk, goed te beantwoorden. Ik was niet meer tijd kwijt dan er aangegeven stond." - *anoniem*
+
+- "Ik vond het een interessant onderzoek en wilde graag meewerken. De vragenlijsten waren goed te doen, duidelijk en makkelijk in te vullen. De informatievoorziening was goed." - *anoniem*
+
+</div>
+
+
 
 
 
