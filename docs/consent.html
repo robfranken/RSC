@@ -13,7 +13,7 @@
 
 <title>Informatiebrief</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -353,6 +357,8 @@ verzamelen, gebruiken en bewaren van bovengenoemde gegevens. Als je hier
 niet mee instemt, kun je niet deelnemen aan het onderzoek.</p>
 <!---Aanscherpen welke data van RSC we gebruiken, per wanneer, en over welke periode...
 Ook wellicht niveau cursussen, naam cursussen, etc.?
+
+en evt. 6digit postcode? geboortedatum?
 -->
 <p><br></p>
 </div>
@@ -410,10 +416,10 @@ die we vergaren op basis van jouw deelname helpt het Radboud
 Sportcentrum en andere organisaties om interventies of programma’s te
 ontwikkelen waarmee een actieve leefstijl na de overgang naar het hoger
 onderwijs kan worden gepromoot. Om deelnemers te bedanken, verloten we
-10x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. €123,-). De
+10x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. €134,-). De
 loterij is na afloop van het collegejaar (augustus 2023). Als je
 prijswinnaar bent, betaal je zelf aan het RSC het jaarabonnement; wij
-zorgen dat de finaciële compensatie (123 euro) naar jou wordt
+zorgen dat de finaciële compensatie (134 euro) naar jou wordt
 overgemaakt. We zijn er vooral bij gebaat als jij meerdere vragenlijsten
 invult, zodat we veranderingen over de tijd kunnen observeren. Daarom
 willen we je een tegoedbon aanbieden als je naast de eerste, ook de

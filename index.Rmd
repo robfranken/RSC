@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Ben jij student aan de RU of HAN? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode (deze is mogelijk in je spam beland). Heb je geen uitnodigingsmail ontvangen, maar wil je wel meedoen? Stuur dan een mail naar [rob.franken@ru.nl](mailto:rob.franken@ru.nl).
+Ben jij student aan de RU of HAN? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode (deze is mogelijk in je spam beland!). Heb je geen uitnodigingsmail ontvangen, maar wil je wel meedoen? Stuur dan een mail naar [rob.franken@ru.nl](mailto:rob.franken@ru.nl).
 
 <!---we should move this to a css file and include it
 
