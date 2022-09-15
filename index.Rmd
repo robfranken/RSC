@@ -116,7 +116,7 @@ function myFunction() {
 </script>
 
 
-Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers (aan de eerste vragenlijst) te bedanken verloten we **10x een jaarabonnement bij het RSC (t.w.v. 123 euro)**.
+Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers (aan de eerste vragenlijst) te bedanken verloten we **10x een jaarabonnement bij het RSC (t.w.v. 134 euro)**.
 
 <br>
 
