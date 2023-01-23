@@ -68,11 +68,11 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ----
 
-<br>
+
 
 ### **En jij kunt daar aan bijdragen!** 
 
-Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je een soortgelijke vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode (deze is mogelijk in je spam beland!). Heb je geen uitnodigingsmail ontvangen, maar wil je wel meedoen? Stuur dan een mail naar [rob.franken@ru.nl](mailto:rob.franken@ru.nl).
+Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je dan een soortgelijke vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode. Deze is mogelijk in je spam beland.
 
 <!---we should move this to a css file and include it
 
@@ -106,12 +106,9 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/493144?newtest=Y&lang=nl" target="_blank" class="button button2">Start de 2e vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/952354?newtest=Y&lang=nl" target="_blank" class="button button2">Start de 2e vragenlijst</a>
 
 ----
-
-
-<br>
 
 
 
