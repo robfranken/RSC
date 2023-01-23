@@ -9,8 +9,6 @@ output:
 
 ----
 
-<div class="row" style="padding-top: 40px;">
-<div class="col-sm-6">
 
 ![](images/logo-radboud.jpg)
 
