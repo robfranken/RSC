@@ -17,35 +17,64 @@ output:
   
 <br>
 
+<script>
+function myFunction() {
+
+            var btn = document.getElementById("myButton");
+            //to make it fancier
+            if (btn.value == "Click to hide code") {
+                btn.value = "Lees meer";
+                btn.innerHTML = "Lees meer";
+            }
+            else {
+                btn.value = "Click to hide code";
+                btn.innerHTML = "Lees minder";
+            }
+            //this is what you're looking for
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+          
+</script>
+
+
 ## Achtergrond
+Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS) willen we onze kennis vergroten over hoe en waarom de overgang naar het hoger onderwijs gepaard gaan met veranderingen in actieve leefstijlen.
 
-Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk.
 
-Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS) willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Dit onderzoeksproject is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* <a href="https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/" target="_blank"><b>(TRIAL)</b></a>. Deze nieuwe kennis helpt het sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
 
+<button class=button1 onclick="myFunction()" id="myButton" value="Click To Open Instructions">Lees meer</button>
+
+<div style="display:none;" id="myDIV">
 <br>
 
-## Meer info
+
+
+Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk. 
+
+
+Dit onderzoeksproject is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* <a href="https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/" target="_blank"><b>(TRIAL)</b></a>. Nieuwe kennis opgedaan door dit onderzoek helpt het Radboud Sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
+
 
 Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
-
-  
 
 </div>
 <div class="col-sm-6">
 
 
+</div>
 
-
-<br>
-
-<br>
+----
 
 <br>
 
-## **En jij kunt daar aan bijdragen!** 
+### **En jij kunt daar aan bijdragen!** 
 
-Ben jij student aan de RU of HAN? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode (deze is mogelijk in je spam beland!). Heb je geen uitnodigingsmail ontvangen, maar wil je wel meedoen? Stuur dan een mail naar [rob.franken@ru.nl](mailto:rob.franken@ru.nl).
+Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je een soortgelijke vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode (deze is mogelijk in je spam beland!). Heb je geen uitnodigingsmail ontvangen, maar wil je wel meedoen? Stuur dan een mail naar [rob.franken@ru.nl](mailto:rob.franken@ru.nl).
 
 <!---we should move this to a css file and include it
 
@@ -79,11 +108,9 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/493144?newtest=Y&lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/493144?newtest=Y&lang=nl" target="_blank" class="button button2">Start de 2e vragenlijst</a>
 
-
-
-<br>
+----
 
 
 <br>
@@ -92,52 +119,10 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 ## Beloning 
 
-<script>
-function myFunction() {
+Uiteraard is deelname volledig vrijwillig. Om deelnemers aan deze tweede vragenlijst te bedanken, ontvangen zij na het volledig invullen van de vragenlijst een **bol.com waardebon t.w.v. 5 euro**. 
 
-            var btn = document.getElementById("myButton");
-            //to make it fancier
-            if (btn.value == "Click to hide code") {
-                btn.value = "Ervaringen van voorgaande deelnemers!";
-                btn.innerHTML = "Ervaringen van voorgaande deelnemers!";
-            }
-            else {
-                btn.value = "Click to hide code";
-                btn.innerHTML = "Ervaringen van voorgaande deelnemers!";
-            }
-            //this is what you're looking for
-            var x = document.getElementById("myDIV");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-          
-</script>
-
-
-Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers (aan de eerste vragenlijst) te bedanken verloten we **10x een jaarabonnement bij het RSC (t.w.v. 134 euro)**.
 
 <br>
-
-<button class=button1 onclick="myFunction()" id="myButton" value="Click To Open Instructions">Ervaringen van voorgaande deelnemers!</button>
-
-<div style="display:none;" id="myDIV">
-<br>
-
-- "Ik deed mee aan de vragenlijsten, voornamelijk om bij te dragen aan het onderzoek, maar gedeeltelijk ook vanwege de kans om wat te winnen (wat aardig is gelukt, haha). De vragenlijst was prima, qua lengte, en de vragen waren duidelijk gesteld." - *eerstejaars student Aritifical Intelligence*
-
-- "Relevant onderzoek! Zeker voor studenten. De vragenlijsten duurde niet lang en waren gemakkelijk via de telefoon in te vullen. Ben benieuwd naar de resultaten!" - *pre-master student Bestuurskunde*
-
-- "Ik deed mee om het onderzoek verder te helpen. De vragen waren duidelijk, goed te beantwoorden. Ik was niet meer tijd kwijt dan er aangegeven stond." - *anoniem*
-
-- "Ik vond het een interessant onderzoek en wilde graag meewerken. De vragenlijsten waren goed te doen, duidelijk en makkelijk in te vullen. De informatievoorziening was goed." - *anoniem*
-
-</div>
-
-
-
 
 
 
