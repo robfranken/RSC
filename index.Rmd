@@ -72,7 +72,9 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ### **En jij kunt daar aan bijdragen!** 
 
-Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je een laatste vragenlijst voor om je deelname aan het onderzoeksproject af te ronden (5-10 minuten). We hebben je een uitnodigingsmail gestuurd. Deze is mogelijk in je spam beland. Heb jij geen uitnodiging ontvangen, maar wil je wel meedoen? Stuur dan een bericht naar rob.franken@ru.nl. 
+Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je een laatste vragenlijst voor om je deelname aan het onderzoeksproject af te ronden (5-10 minuten). 
+
+We hebben je een uitnodigingsmail gestuurd. Daarin vind je de link naar de vragenlijst. Je kunt deze gemakkelijk via je smartphone invullen. Mogelijk is de uitnodiging in je spam beland. Heb jij geen uitnodiging ontvangen, maar wil je wel meedoen? Stuur dan een bericht naar rob.franken@ru.nl. 
 
 <!---we should move this to a css file and include it
 
