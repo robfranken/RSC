@@ -72,13 +72,16 @@ Bekijk het <a href="https://altijdblijvensporten.info/consent.html" target="_bla
 
 ### **En jij kunt daar aan bijdragen!** 
 
-Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je dan een soortgelijke vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode. Deze is mogelijk in je spam beland.
+Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag leggen we je een laatste vragenlijst voor om je deelname aan het onderzoeksproject af te ronden (5-10 minuten). We hebben je een uitnodigingsmail gestuurd. Deze is mogelijk in je spam beland. Heb jij geen uitnodiging ontvangen, maar wil je wel meedoen? Stuur dan een bericht naar rob.franken@ru.nl. 
 
 <!---we should move this to a css file and include it
 
 https://www.w3schools.com/csS/css3_buttons.asp
 
 -->
+
+
+<!-- 
 <style>
 .button {
   background-color: #4CAF50; /* Green */
@@ -108,13 +111,15 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/952354?newtest=Y&lang=nl" target="_blank" class="button button2">Start de 2e vragenlijst</a>
 
+
+--> 
 ----
 
 
 
 ## Beloning 
 
-Uiteraard is deelname volledig vrijwillig. Om deelnemers aan deze tweede vragenlijst te bedanken, ontvangen zij na het volledig invullen van de vragenlijst een **bol.com waardebon t.w.v. 5 euro**. 
+Uiteraard is deelname volledig vrijwillig. Om deelnemers te bedanken voor hun deelname aan de laatste vragenlijst, verloten wij nogmaals **5x een RSC-jaarabonnement** (t.w.v. 134 euro). 
 
 
 <br>

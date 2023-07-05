@@ -13,7 +13,7 @@
 
 <title>Altijd Blijven Sporten!</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -361,14 +354,18 @@ voor meer informatie over het onderzoek.</p>
 <div id="en-jij-kunt-daar-aan-bijdragen" class="section level3">
 <h3><strong>En jij kunt daar aan bijdragen!</strong></h3>
 <p>Heb jij eerder dit collegejaar een online vragenlijst ingevuld? Graag
-leggen we je dan een soortgelijke vragenlijst voor. Klik de knop
-hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd
-met daarin een toegangscode. Deze is mogelijk in je spam beland.</p>
+leggen we je een laatste vragenlijst voor om je deelname aan het
+onderzoeksproject af te ronden (5-10 minuten). We hebben je een
+uitnodigingsmail gestuurd. Deze is mogelijk in je spam beland. Heb jij
+geen uitnodiging ontvangen, maar wil je wel meedoen? Stuur dan een
+bericht naar <a href="mailto:rob.franken@ru.nl"
+class="email">rob.franken@ru.nl</a>.</p>
 <!---we should move this to a css file and include it
 
 https://www.w3schools.com/csS/css3_buttons.asp
 
 -->
+<!-- 
 <style>
 .button {
   background-color: #4CAF50; /* Green */
@@ -393,18 +390,21 @@ https://www.w3schools.com/csS/css3_buttons.asp
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 </style>
-<p><br></p>
-<p><a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/952354?newtest=Y&lang=nl" target="_blank" class="button button2">Start
-de 2e vragenlijst</a></p>
+
+<br>
+
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/952354?newtest=Y&lang=nl" target="_blank" class="button button2">Start de 2e vragenlijst</a>
+
+
+-->
 <hr />
 </div>
 </div>
 <div id="beloning" class="section level2">
 <h2>Beloning</h2>
-<p>Uiteraard is deelname volledig vrijwillig. Om deelnemers aan deze
-tweede vragenlijst te bedanken, ontvangen zij na het volledig invullen
-van de vragenlijst een <strong>bol.com waardebon t.w.v. 5
-euro</strong>.</p>
+<p>Uiteraard is deelname volledig vrijwillig. Om deelnemers te bedanken
+voor hun deelname aan de laatste vragenlijst, verloten wij nogmaals
+<strong>5x een RSC-jaarabonnement</strong> (t.w.v. 134 euro).</p>
 <p><br></p>
 </div>
 
